@@ -32,5 +32,5 @@ $ git add . <br>
 $ git commit -am "make it better" <br>
 $ git push heroku master</p><br>
 
-<a href="https://www.youtube.com/watch?v=aUW5GAFhu6s">Reference 1.</a>
+<a href="https://www.youtube.com/watch?v=aUW5GAFhu6s">Reference 1.</a><br>
 <a href="https://www.youtube.com/watch?v=jni52Hp7Cug">Reference 2.</a>
