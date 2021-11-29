@@ -16,7 +16,7 @@ some amount of money.</p>
 
 <p>Also check my previuos works here,<br>
   1. TEDxVITChennai - <a href="http://tedxvitchennai.com/">Visit TEDxVITChennai</a>, <a href="https://github.com/Pa1kcool/TEDxVITChennai">Github repo Here</a>.<br>
-2. iDecors - Interior Decorations and Design Brand,<a href="http://tedxvitchennai.com/">Visit iDecors</a>, <a href="">Github repo Here</a>.<br></p>
+2. iDecors - Interior Decorations and Design Brand,<a href="https://github.com/Pa1kcool/idecors">Visit iDecors</a>, <a href="https://github.com/Pa1kcool/idecors">Github repo Here</a>.<br></p>
 <h2>Steps to be followed for deploying the site in your PC.</h2>
 <p>
 Download and install the Heroku CLI.<br>
