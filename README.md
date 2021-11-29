@@ -15,8 +15,8 @@ some amount of money.</p>
 <p>The site is deplyed in Heroku,</p><h3><a href="https://procarrier.herokuapp.com/" target="_blank">Visit Here.</a></h3>
 
 <p>Also check my previuos works here,<br>
-  1. TEDxVITChennai - <a href="http://tedxvitchennai.com/">Visit TEDxVITChennai</a>, Github repo:<a href="https://github.com/Pa1kcool/TEDxVITChennai">Here</a>.<br>
-2. </p>
+  1. TEDxVITChennai - <a href="http://tedxvitchennai.com/">Visit TEDxVITChennai</a>, <a href="https://github.com/Pa1kcool/TEDxVITChennai">Github repo Here</a>.<br>
+2. iDecors - Interior Decorations and Design Brand,<a href="http://tedxvitchennai.com/">Visit iDecors</a>, <a href="">Github repo Here</a>.<br></p>
 <h2>Steps to be followed for deploying the site in your PC.</h2>
 <p>
 Download and install the Heroku CLI.<br>
