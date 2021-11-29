@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pro Carrier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images1/logo1.png" width="125px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="productdetails.html">DELIVERY DETAILS</a></li>
+                        <li><a href="cart.html">CART</a></li>
+                        <li><a href="">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <img src="images1/cart.png" width="30px" height="30px">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Welcome to<br><br>Pro Carrier</h1>
+                    <p>"Breath. Feel. Live. Your time is now"<br> Select the available Products,<br>Deliver to the Destiny in your free time.<br> Earn Cash Rewards!!!</p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 7</div>
+                            <img src="images1/car4.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 7</div>
+                            <img src="images1/bag8.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 7</div>
+                            <img src="images1/bike3.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 7</div>
+                            <img src="images1/courier.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 7</div>
+                            <img src="images1/money.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">6 / 7</div>
+                            <img src="images1/pack.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">7 / 7</div>
+                            <img src="images1/lorry.jpg" style="width:100%">
+                        </div>
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 17300); // Change image every 2 seconds
+        }
+    </script>
+
+
+    <!-------featured categories-------->
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title">Categories</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images1/category-1.jpg">
+                    <p>Small Products</p>
+                </div>
+                <div class="col-3">
+                    <img src="images1/laptop.jpg">
+                    <p>Medium size Products</p>
+                </div>
+                <div class="col-3">
+                    <img src="images1/cycles.jpg">
+                    <p>Large size Products</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------featured products-------->
+    <div class="header">
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images1/product-1.jpg">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images1/product-2.jpg">
+                    <h4>Running Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$249.00<br>WareHouse Location: Chennai</p>
+                </div>
+                <div class="col-4">
+                    <img src="images1/product-3.jpg">
+                    <h4>Track Pant</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$45.00<br>WareHouse Location: Hyderabad</p>
+                </div>
+                <div class="col-4">
+                    <img src="images1/lap.jfif">
+                    <h4>Apple MacBook Pro</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$1299.00<br>WareHouse Location: Chennai</p>
+                </div>
+                <div class="col-4">
+                    <img src="images1/watch.jpg">
+                    <h4>Smart Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$120.00<br>WareHouse Location: Bengaluru</p>
+                </div>
+                <div class="col-4">
+                    <img src="images1/cycle.jpg">
+                    <h4>Gear Cycle</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$650.00<br>WareHouse Location: Bengaluru</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="title">Our WareHouses</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images1/hyd3.jfif">
+            <h4>HYDERABAD</h4>
+
+            <p>Localities in Hyderabad.</p>
+        </div>
+        <div class="col-4">
+            <img src="images1/chn.jpg">
+            <h4>CHENNAI</h4>
+
+            <p>Localities in Chennai.</p>
+        </div>
+        <div class="col-4">
+            <img src="images1/beng.jpg">
+            <h4>BENGALURU</h4>
+
+            <p>Localities in Bengaluru.</p>
+        </div>
+
+        <div class="col-4">
+            <img src="images1/hyd1.jpg">
+            <h4>HYDERABAD</h4>
+
+            <p>Old City, Jublee Hills,<br>Banjara Hills, Golkonda e.t.c.</p>
+        </div>
+        <div class="col-4">
+            <img src="images1/chn1.jpg">
+            <h4>CHENNAI</h4>
+
+            <p>Velachery, Anna Nagar,<br>Adyar, Madhavaram e.t.c.</p>
+        </div>
+        <div class="col-4">
+            <img src="images1/beng1.jpg">
+            <h4>BENGALURU</h4>
+
+            <p>Jayanagar, J.P.Nagar,<br>Kumarswamy Layout, ISRO Layout e.t.c.</p>
+        </div>
+    </div>
+    <div class="header">
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images1/exclusive.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively for PRO CARRIERS</p>
+                        <h1>Smart Band 5</h1>
+                        <small>The Smart Band 4 features a 39%(than Smart Band 4) larger AMOLED color full-touch display with
+				adjustible brightness, so everything is clear as can be.</small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images1/headphones.jpg" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively for PRO CARRIERS</p>
+                        <h1>Headphones Air</h1>
+                        <small>The Headphones Air features extraodinary noise cancellation features with cinematic sound experience, updates to 8D too.so everything is clear as can be.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images1/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="images1/logo-philips.png">
+                </div>
+                <div class="col-5">
+                    <img src="images1/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images1/amazon.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images1/flipkart.png">
+                </div>
+                <div class="col-5">
+                    <img src="images1/snapdeal.png">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--------footer---------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Thank You for Visiting Our Site</h3>
+                    <p>See You</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images1/logo1.png">
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+                <hr>
+                <p class="copyright">&copy; 2021<br>Transportation and Delivery Business Project.</p>
+                <br>
+                <p>Designed and Developed by Pavan Kumar Kundeti.</p>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
