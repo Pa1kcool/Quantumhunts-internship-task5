@@ -14,25 +14,16 @@ for example: If a user travels from Chennai to Bengaluru , he can open the site 
 some amount of money.</p>
 <p>The site is deplyed in Heroku,</p><h3> <a href="https://procarrier.herokuapp.com/" target="_blank">Visit Here.</a></h3>
 <h2>Steps to be followed for deploying the site in your PC.</h2>
-<p>1. Install Heroku <a href="https://www.heroku.com/">(Check here)</a> and make sure you logged in to your account.<br>
-  2. Create a new app. (eg: my_app).<br>
-3. Download/Clone this project code from github to your PC.<br>
-4. Save all the files in a folder ("folder_name").<br>
-5. Open command prompt and execute these commands.<br>
-  
-</p>
-<p>
-Install the Heroku CLI
-Download and install the Heroku CLI.
-
-If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+<p>Install the Heroku CLI<br>
+Download and install the Heroku CLI.<br>
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.<br>
 
 $ heroku login
-Clone the repository
-Use Git to clone procarrier's source code to your local machine.
-
-$ heroku git:clone -a procarrier
-$ cd procarrier
+<br>Clone the repository, Use Git to clone procarrier's source code to your local machine.
+<br>
+$ heroku git:clone -a procarrier <br>
+$ cd procarrier <br>
+  
 Deploy your changes
 Make some changes to the code you just cloned and deploy them to Heroku using Git.
 
