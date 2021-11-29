@@ -14,19 +14,23 @@ for example: If a user travels from Chennai to Bengaluru , he can open the site 
 some amount of money.</p>
 <p>The site is deplyed in Heroku,</p><h3> <a href="https://procarrier.herokuapp.com/" target="_blank">Visit Here.</a></h3>
 <h2>Steps to be followed for deploying the site in your PC.</h2>
-<p>Install the Heroku CLI<br>
+<p>
 Download and install the Heroku CLI.<br>
 If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.<br>
 
 $ heroku login
-<br>Clone the repository, Use Git to clone procarrier's source code to your local machine.
+<br>Clone the repository, Use Git to clone this project source code to your local machine.
 <br>
 $ heroku git:clone -a procarrier <br>
 $ cd procarrier <br>
-  
+
+  <p>Here procarrier is my app name in Heroku and </p>
 Deploy your changes
 Make some changes to the code you just cloned and deploy them to Heroku using Git.
 
-$ git add .
-$ git commit -am "make it better"
-$ git push heroku master</p>
+$ git add . <br>
+$ git commit -am "make it better" <br>
+$ git push heroku master</p><br>
+
+<a href="https://www.youtube.com/watch?v=aUW5GAFhu6s">Reference 1.</a>
+<a href="https://www.youtube.com/watch?v=jni52Hp7Cug">Reference 2.</a>
