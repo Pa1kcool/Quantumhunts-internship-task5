@@ -13,4 +13,4 @@ needs to select any product on the website available to deliver. The main theme 
 for example: If a user travels from Chennai to Bengaluru , he can open the site and check any products available to deliver in his way. So, by successful delivery
 some amount of money.</p><br><br>
 
-<p>The site is deplyed in Heroku, <a href="https://procarrier.herokuapp.com/">Visit Here.</a>
+<p>The site is deplyed in Heroku, <a href="https://procarrier.herokuapp.com/" target="_blank">Visit Here.</a>
