@@ -12,6 +12,5 @@ Task 5:
 needs to select any product on the website available to deliver. The main theme here is 'why just simply travelling long distances or anywhere, earn money whil you travel'
 for example: If a user travels from Chennai to Bengaluru , he can open the site and check any products available to deliver in his way. So, by successful delivery
 some amount of money.</p><br>
-
 <p>The site is deplyed in Heroku,</p><h3> <a href="https://procarrier.herokuapp.com/" target="_blank">Visit Here.</a></h3>
  
