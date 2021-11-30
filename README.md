@@ -8,7 +8,7 @@ Task 5:
 5. Weightage would be given for design aethetics and originality for this. 
 6. Create a readme file and add good documentation on how to run the code
 
-<h1>ProCarrier - Product Carry and Deliver Brand.</h1><br><p>This site helps everyone to earn money by delivering the goods to the final destination. By registering on the website user 
+<h1>ProCarrier - Product Carry and Deliver Brand.</h1><br><p>The idea-This site helps everyone to earn money by delivering the goods to the final destination. By registering on the website user 
 needs to select any product on the website available to deliver. The main theme here is 'why just simply travelling long distances or anywhere, earn money whil you travel'
 for example: If a user travels from Chennai to Bengaluru , he can open the site and check any products available to deliver in his way. So, by successful delivery
 some amount of money.</p>
