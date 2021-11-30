@@ -19,7 +19,7 @@ some amount of money.</p>
 2. iDecors - Interior Decorations and Design Brand,<a href="https://idecors.herokuapp.com/">Visit iDecors</a>, <a href="https://github.com/Pa1kcool/idecors">Github repo Here</a>.<br></p>
 <h2>Steps to be followed for deploying the site in your PC.</h2>
 <p>
-Download and install the Heroku CLI.<br>
+  Download and install the <a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku CLI</a>.<br>
 If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.<br>
 
 $ heroku login
